@@ -1,0 +1,64 @@
+:root {
+  /* Color */
+  --color-primary: #24053e;
+  --color-secondary: #44ffa1;
+  --color-tertiary: #584d62;
+  --color-accent: #fcf8ff;
+
+  /* Font size */
+  --font-size-base: 16px;
+  --font-size-s: 2rem;
+  --font-size-m: 3.5rem;
+  --font-size-l: 5rem;
+
+  /* Line spacing */
+  --line-spacing-base: 2rem;
+  --line-spacing-s: 2.5rem;
+  --line-spacing-m: 4rem;
+  --line-spacing-l: 5rem;
+}
+
+@font-face {
+  font-family: 'Fraunces';
+  font-weight: 600;
+  font-style: normal;
+  src: url('./fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Manrope';
+  font-weight: 400;
+  font-style: normal;
+  src: url('./fonts/manrope/static/Manrope-Regular.ttf') format('truetype');
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  font-size: vat(--font-size-base);
+  font-family:
+    'Manrope',
+    Inter,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
+    sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: all 0.25s linear;
+}
