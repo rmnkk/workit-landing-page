@@ -28,6 +28,7 @@ withDefaults(defineProps<ButtonProps>(), {
     padding: 0.8rem 1.4rem;
     background-color: var(--color-secondary);
     border: 0.125rem solid transparent;
+    color: var(--color-primary);
 }
 
 .button-primary:hover {
