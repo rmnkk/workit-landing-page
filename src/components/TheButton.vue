@@ -36,4 +36,16 @@ withDefaults(defineProps<ButtonProps>(), {
     border-color: var(--color-secondary);
     color: var(--color-secondary);
 }
+
+.button-secondary {
+    padding: 0;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    border-bottom: 0.125rem solid var(--color-secondary);
+}
+
+.button-secondary:hover {
+    color: var(--color-secondary);
+}
 </style>
