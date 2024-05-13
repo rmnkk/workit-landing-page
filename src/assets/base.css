@@ -7,12 +7,13 @@
 
   /* Font size */
   --font-size-base: 16px;
+  --font-size-regular: 1.125rem;
   --font-size-s: 2rem;
   --font-size-m: 3.5rem;
   --font-size-l: 5rem;
 
   /* Line spacing */
-  --line-spacing-base: 2rem;
+  --line-spacing-regular: 2rem;
   --line-spacing-s: 2.5rem;
   --line-spacing-m: 4rem;
   --line-spacing-l: 5rem;
